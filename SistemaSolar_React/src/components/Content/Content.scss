@@ -1,0 +1,193 @@
+$color: white;
+$p: black;
+
+.description {
+    position: absolute;
+    top: 35%;
+    margin-left: 20px;
+    width: 40%;
+    word-wrap: break-word;
+    text-align: justify;
+    display: none;
+
+    h3 {
+        color: $color ;
+        font-size: 1.9em;
+        font-weight: bold;
+        animation: animar 1s ease-in-out 0.2s 1 forwards;
+        opacity: 0;
+    }
+
+    p {
+        color: $color;
+        margin-top: 10px;
+        font-size: 16px;
+        animation: animar 1s ease-in-out 0.2s 1 forwards;
+        opacity: 0;
+    }
+
+    .btn {
+        margin-top: 10px;
+        animation: animar 1s ease-in-out 0.2s 1 forwards;
+        opacity: 0;
+
+        button {
+            padding: 5px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+
+        }
+
+        .btn2 {
+            margin-left: 10px;
+
+            &:hover {
+                opacity: 0.4;
+                background-color: green;
+            }
+        }
+
+        .btn1 {
+            &:hover {
+                opacity: 0.4;
+                background-color: green;
+            }
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width: 428px) {
+    $color: white;
+
+    .description {
+        position: absolute;
+        top: 30%;
+        margin-left: 20px;
+        width: 40%;
+        word-wrap: break-word;
+        text-align: justify;
+        display: none;
+
+        h3 {
+            color: $p ;
+            font-size: 1.2em;
+            font-weight: bold;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+        }
+
+        p {
+            color: $color;
+            margin-top: 10px;
+            font-size: 11px;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+        }
+
+        .btn {
+            margin-top: 10px;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+            display: flex;
+
+            button {
+                padding: 2px;
+                font-size: 11px;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                cursor: pointer;
+
+            }
+
+            .btn2 {
+                margin-left: 10px;
+
+                &:hover {
+                    opacity: 0.4;
+                    background-color: green;
+                }
+            }
+
+            .btn1 {
+                &:hover {
+                    opacity: 0.4;
+                    background-color: green;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    $color: white;
+
+    .description {
+        position: absolute;
+        top: 19%;
+        margin-left: 20px;
+        width: 40%;
+        word-wrap: break-word;
+        text-align: justify;
+        display: none;
+
+        h3 {
+            color: $p ;
+            font-size: 1.0em;
+            font-weight: bold;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+        }
+
+        p {
+            color: $color;
+            margin-top: 10px;
+            font-size: 10px;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+        }
+
+        .btn {
+            margin-top: 10px;
+            animation: animar 1s ease-in-out 0.2s 1 forwards;
+            opacity: 0;
+            display: flex;
+
+            button {
+                padding: 1px;
+                font-size: 8px;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                cursor: pointer;
+
+            }
+
+            .btn2 {
+                margin-left: 10px;
+
+                &:hover {
+                    opacity: 0.4;
+                    background-color: green;
+                }
+            }
+
+            .btn1 {
+                &:hover {
+                    opacity: 0.4;
+                    background-color: green;
+                }
+            }
+        }
+
+
+    }
+}

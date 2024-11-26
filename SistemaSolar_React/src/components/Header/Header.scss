@@ -1,0 +1,13 @@
+.header{
+    nav{
+       ul{
+        display: flex;
+        justify-content: space-evenly;
+        height: 80px;
+        align-items: center;
+        list-style-type: none;
+        cursor: pointer;
+        font-size: 13px;
+       }
+    }
+}
